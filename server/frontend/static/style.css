@@ -118,9 +118,28 @@ img{
 .img_icon {
   align-self: center;
     width:40px;
-    background-color:#0C9;
+    background-color:hwb(165 0% 20%);
     color:#FFF;
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact_title{
+    font-size: 30px;
+    background-color: #006db0;
+    color: white;
+    text-align: center;
+    padding:5px;
+  }
+
+  .card_contact{
+    border: #043927 3px;
+    display: flex;  
+    flex-direction: column;
+    margin-left:1%;
+    margin-right:1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+  }
