@@ -14,8 +14,8 @@ urlpatterns = [
 
     # path for dealer reviews view
     path(
-        route='get_dealers/', 
-        view=views.get_dealerships, 
+        route='get_dealers/',
+        view=views.get_dealerships,
         name='get_dealers'
         ),
     path(
