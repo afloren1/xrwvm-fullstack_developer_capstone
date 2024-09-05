@@ -1,6 +1,5 @@
 # Uncomment the required imports before adding the code
 
-from django.shortcuts import render
 from django.contrib.auth.models import User
 from django.contrib.auth import logout
 from .models import CarMake, CarModel
@@ -59,7 +58,7 @@ def registration(request):
         User.objects.get(username=username)
         username_exist = True
     except Exception as e:
-            logger.debug(f"Error occurred: {e}")
+        logger.debug(f"Error occurred: {e}")
 
     # If it is a new user
     if not username_exist:
