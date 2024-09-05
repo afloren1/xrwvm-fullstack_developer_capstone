@@ -141,6 +141,3 @@ def add_review(request):
             print(f"Error: {e}")
     else:
         return JsonResponse({"status": 403, "message": "Unauthorized"})
-
-except Exception as e:
-    print(f"Error: {e}")
